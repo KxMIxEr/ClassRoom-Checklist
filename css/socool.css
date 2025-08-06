@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: unispace, sans-serif;
+    background-color: #dcdcdc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #ab1364;
 }
 
 .input-container {
@@ -27,6 +27,7 @@ h1 {
 }
 
 #taskInput {
+    font-family: unispace, sans-serif;
     flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
@@ -35,9 +36,10 @@ h1 {
 }
 
 #addButton {
+    font-family: unispace, sans-serif;
     padding: 10px 15px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #8dffbf;
+    color: #000000;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -61,9 +63,8 @@ li {
 }
 
 li.completed {
-    background-color: #d4edda;
-    text-decoration: line-through;
-    color: #555;
+    background-color: #60ff85b9;
+    color: #ffffff;
 }
 
 .delete-button {
@@ -73,4 +74,5 @@ li.completed {
     padding: 5px 10px;
     border-radius: 4px;
     cursor: pointer;
+    text-decoration: none;
 }
