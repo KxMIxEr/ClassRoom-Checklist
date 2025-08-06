@@ -5,10 +5,18 @@
         padding: 20px;
         place-items: center;
 }
-img {
+body {
+    background-color: rgb(222, 222, 222);
+}
+.one {
+    width: 450px;
+    height: auto;
+}
+.two {
     width: 95%;
     height: auto;
 }
-body {
-    background-color: rgb(222, 222, 222);
+.three {
+    width: 450px;
+    height: auto;
 }
